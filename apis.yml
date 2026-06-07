@@ -1,0 +1,57 @@
+aid: data-civis-bz-it
+name: South Tyrol Civis Open Data
+description: >-
+  South Tyrol Civis Open Data is a regional government open-data portal for Italy running CKAN.
+  It exposes the CKAN catalog API over approximately 938 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/data-civis-bz-it/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Regional Government
+  - Italy
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: data-civis-bz-it:catalog
+    name: South Tyrol Civis Open Data CKAN Action API
+    description: >-
+      CKAN API for South Tyrol Civis Open Data, ~938 datasets.
+    humanURL: https://data.civis.bz.it
+    baseURL: https://data.civis.bz.it/api/3/action
+    tags:
+      - CKAN
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://data.civis.bz.it
+      - type: x-api-endpoint
+        url: https://data.civis.bz.it/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.10.7'
+common:
+  - type: Website
+    url: https://data.civis.bz.it
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/data-civis-bz-it-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/data-civis-bz-it-rate-limits.yml
+  - type: FinOps
+    url: finops/data-civis-bz-it-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
