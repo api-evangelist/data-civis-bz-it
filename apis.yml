@@ -40,6 +40,8 @@ apis:
       - type: x-ckan-version
         value: '2.10.7'
 common:
+  - type: DomainSecurity
+    url: security/data-civis-bz-it-domain-security.yml
   - type: Website
     url: https://data.civis.bz.it
   - type: Documentation
